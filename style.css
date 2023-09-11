@@ -39,7 +39,6 @@ body{
     margin-right: 16px;
     font-size: 18px;
     background: rgba(235,255,252,0.8);
-    backdrop-filter: saturate(180%) blur(10px);
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 
 }
@@ -52,7 +51,6 @@ body{
     cursor: pointer;
     align-items: center;
     background: rgba(235,255,252,0.8);
-    backdrop-filter: saturate(180%) blur(10px);
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 .search button img{
@@ -60,10 +58,10 @@ body{
     margin-top: 4px;
     
 }
-/* .weather-icon{
+.weather-icon{
     width: 170px;
     margin-top: 30px;
-} */
+}
 .weather h1{
     font-size: 80px;
     font-family: 500;
